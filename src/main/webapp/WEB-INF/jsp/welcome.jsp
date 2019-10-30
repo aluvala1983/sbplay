@@ -9,12 +9,8 @@
 <body>
 
 <form method="post">
+<h1>Welcome Bud!! ${name} your visit id for today is ${password}</h1>
 
-Name : <input type="text" name="name"/> 
-
-Password : <input type="password" name="password"/> 
-<input type="submit" name="Submit" value="Submit Query"/	>
-<p style="color:Tomato;"> ${errorMessage} </p>
 </form>
 <!-- <h1>This is first JSP login page , Welcome ${name} you are number ${id }</h1> -->
 </body>
